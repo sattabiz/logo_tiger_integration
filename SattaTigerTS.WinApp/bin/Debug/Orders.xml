@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Order>
+    <SelectedItem>true</SelectedItem>
+    <Id>141</Id>
+    <ProposalId>470</ProposalId>
+    <CompanyId>15</CompanyId>
+    <Supplier>Yiğit Makine </Supplier>
+    <SupplierErpId>PF06</SupplierErpId>
+    <SupplierTaxId>22222222222</SupplierTaxId>
+    <State>order_confirmed</State>
+    <DeliveryDate>2022-06-23T11:34:13.955+03:00</DeliveryDate>
+    <PaymentDueDate>30</PaymentDueDate>
+    <OrderDate>2022-06-20T11:34:05.14+03:00</OrderDate>
+    <DemandName>category deneme3</DemandName>
+    <DemandNo>118</DemandNo>
+    <DemandCreatorName>elifgokce</DemandCreatorName>
+    <DemandCreatorEmail>gueed1974@fleckens.hu</DemandCreatorEmail>
+    <ProcurementName>elifgokce</ProcurementName>
+    <ProcurementEmail>gueed1974@fleckens.hu</ProcurementEmail>
+    <Approvers>
+      <Approver>
+        <ApproverName>elifgokce</ApproverName>
+        <ApproverEmail>gueed1974@fleckens.hu</ApproverEmail>
+        <ApprovalDate>2022-06-20T11:34:13.887+03:00</ApprovalDate>
+      </Approver>
+    </Approvers>
+    <Products>
+      <Product>
+        <SelectedItemProduct>true</SelectedItemProduct>
+        <ProductProposalId>1302</ProductProposalId>
+        <Name>araç bakım</Name>
+        <CategoryId>126</CategoryId>
+        <Description>araç bakım malzemeleri</Description>
+        <Amount>7</Amount>
+        <Unit>AD</Unit>
+        <Price>47</Price>
+        <CurrencyCode>TRY</CurrencyCode>
+        <ProductErpId xsi:type="xsd:string">902.RLM.454</ProductErpId>
+        <ProposalNote />
+        <CategoryErpId>category_erp_99</CategoryErpId>
+      </Product>
+      <Product>
+        <SelectedItemProduct>true</SelectedItemProduct>
+        <ProductProposalId>1303</ProductProposalId>
+        <Name>bakım</Name>
+        <CategoryId>125</CategoryId>
+        <Description>bakım malzemeleri</Description>
+        <Amount>6</Amount>
+        <Unit>AD</Unit>
+        <Price>46</Price>
+        <CurrencyCode>USD</CurrencyCode>
+        <ProductErpId xsi:type="xsd:string">902.RLM.010</ProductErpId>
+        <ProposalNote />
+        <CategoryErpId>category_erp_77</CategoryErpId>
+      </Product>
+    </Products>
+  </Order>
+</ArrayOfOrder>

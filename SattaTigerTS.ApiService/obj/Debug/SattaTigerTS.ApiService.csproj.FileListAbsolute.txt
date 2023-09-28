@@ -1,0 +1,14 @@
+H:\SattaTiger\SattaTigerTS\SattaTigerTS\SattaTigerTS.ApiService\bin\Debug\SattaTigerTS.ApiService.exe.config
+H:\SattaTiger\SattaTigerTS\SattaTigerTS\SattaTigerTS.ApiService\bin\Debug\SattaTigerTS.ApiService.exe
+H:\SattaTiger\SattaTigerTS\SattaTigerTS\SattaTigerTS.ApiService\bin\Debug\SattaTigerTS.ApiService.pdb
+H:\SattaTiger\SattaTigerTS\SattaTigerTS\SattaTigerTS.ApiService\obj\Debug\SattaTigerTS.ApiService.csprojAssemblyReference.cache
+H:\SattaTiger\SattaTigerTS\SattaTigerTS\SattaTigerTS.ApiService\obj\Debug\SattaTigerTS.ApiService.csproj.CoreCompileInputs.cache
+H:\SattaTiger\SattaTigerTS\SattaTigerTS\SattaTigerTS.ApiService\obj\Debug\SattaTigerTS.ApiService.exe
+H:\SattaTiger\SattaTigerTS\SattaTigerTS\SattaTigerTS.ApiService\obj\Debug\SattaTigerTS.ApiService.pdb
+E:\SattaTiger\SattaTiger02102022\SattaTigerTS2204\SattaTigerTS.ApiService\bin\Debug\SattaTigerTS.ApiService.exe.config
+E:\SattaTiger\SattaTiger02102022\SattaTigerTS2204\SattaTigerTS.ApiService\bin\Debug\SattaTigerTS.ApiService.exe
+E:\SattaTiger\SattaTiger02102022\SattaTigerTS2204\SattaTigerTS.ApiService\bin\Debug\SattaTigerTS.ApiService.pdb
+E:\SattaTiger\SattaTiger02102022\SattaTigerTS2204\SattaTigerTS.ApiService\obj\Debug\SattaTigerTS.ApiService.csproj.AssemblyReference.cache
+E:\SattaTiger\SattaTiger02102022\SattaTigerTS2204\SattaTigerTS.ApiService\obj\Debug\SattaTigerTS.ApiService.csproj.CoreCompileInputs.cache
+E:\SattaTiger\SattaTiger02102022\SattaTigerTS2204\SattaTigerTS.ApiService\obj\Debug\SattaTigerTS.ApiService.exe
+E:\SattaTiger\SattaTiger02102022\SattaTigerTS2204\SattaTigerTS.ApiService\obj\Debug\SattaTigerTS.ApiService.pdb

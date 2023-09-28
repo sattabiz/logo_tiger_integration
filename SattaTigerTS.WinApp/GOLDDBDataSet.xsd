@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="GOLDDBDataSet" targetNamespace="http://tempuri.org/GOLDDBDataSet.xsd" xmlns:mstns="http://tempuri.org/GOLDDBDataSet.xsd" xmlns="http://tempuri.org/GOLDDBDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="GOLDDBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="GOLDDBConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SattaTigerTS.WinApp.Properties.Settings.GlobalReference.Default.GOLDDBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="BEST_OF_SUPPLIERTableAdapter" GeneratorDataComponentClassName="BEST_OF_SUPPLIERTableAdapter" Name="BEST_OF_SUPPLIER" UserDataComponentName="BEST_OF_SUPPLIERTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="GOLDDBConnectionString (Settings)" DbObjectName="GOLDDB.dbo.BEST_OF_SUPPLIER" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT FISTURU, FATURATARIHI, name, FATURATOPLAMI, FATURASAY, invited_person, invited_email, phone, TAXOFFICE, tax_id, TCKNO, erp_id FROM dbo.BEST_OF_SUPPLIER</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="FISTURU" DataSetColumn="FISTURU" />
+              <Mapping SourceColumn="FATURATARIHI" DataSetColumn="FATURATARIHI" />
+              <Mapping SourceColumn="name" DataSetColumn="name" />
+              <Mapping SourceColumn="FATURATOPLAMI" DataSetColumn="FATURATOPLAMI" />
+              <Mapping SourceColumn="FATURASAY" DataSetColumn="FATURASAY" />
+              <Mapping SourceColumn="invited_person" DataSetColumn="invited_person" />
+              <Mapping SourceColumn="invited_email" DataSetColumn="invited_email" />
+              <Mapping SourceColumn="phone" DataSetColumn="phone" />
+              <Mapping SourceColumn="TAXOFFICE" DataSetColumn="TAXOFFICE" />
+              <Mapping SourceColumn="tax_id" DataSetColumn="tax_id" />
+              <Mapping SourceColumn="TCKNO" DataSetColumn="TCKNO" />
+              <Mapping SourceColumn="erp_id" DataSetColumn="erp_id" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="BESTOFITEMTableAdapter" GeneratorDataComponentClassName="BESTOFITEMTableAdapter" Name="BESTOFITEM" UserDataComponentName="BESTOFITEMTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="GOLDDBConnectionString (Settings)" DbObjectName="GOLDDB.dbo.BESTOFITEM" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ItemRef, product_erp_id, NAME, unit, SAY, [TOPLAM TUTAR], [SON IRSALIYE TARIHI] FROM dbo.BESTOFITEM</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ItemRef" DataSetColumn="ItemRef" />
+              <Mapping SourceColumn="product_erp_id" DataSetColumn="product_erp_id" />
+              <Mapping SourceColumn="NAME" DataSetColumn="NAME" />
+              <Mapping SourceColumn="unit" DataSetColumn="unit" />
+              <Mapping SourceColumn="SAY" DataSetColumn="SAY" />
+              <Mapping SourceColumn="TOPLAM TUTAR" DataSetColumn="TOPLAM TUTAR" />
+              <Mapping SourceColumn="SON IRSALIYE TARIHI" DataSetColumn="SON IRSALIYE TARIHI" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ITEMS_TO_DEMANDTableAdapter" GeneratorDataComponentClassName="ITEMS_TO_DEMANDTableAdapter" Name="ITEMS_TO_DEMAND" UserDataComponentName="ITEMS_TO_DEMANDTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="GOLDDBConnectionString (Settings)" DbObjectName="GOLDDB.dbo.ITEMS_TO_DEMAND" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ItemRef, product_erp_id, NAME, unit FROM dbo.ITEMS_TO_DEMAND</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ItemRef" DataSetColumn="ItemRef" />
+              <Mapping SourceColumn="product_erp_id" DataSetColumn="product_erp_id" />
+              <Mapping SourceColumn="NAME" DataSetColumn="NAME" />
+              <Mapping SourceColumn="unit" DataSetColumn="unit" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="GOLDDBDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="GOLDDBDataSet" msprop:Generator_UserDSName="GOLDDBDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="BEST_OF_SUPPLIER" msprop:Generator_TableClassName="BEST_OF_SUPPLIERDataTable" msprop:Generator_TableVarName="tableBEST_OF_SUPPLIER" msprop:Generator_TablePropName="BEST_OF_SUPPLIER" msprop:Generator_RowDeletingName="BEST_OF_SUPPLIERRowDeleting" msprop:Generator_RowChangingName="BEST_OF_SUPPLIERRowChanging" msprop:Generator_RowEvHandlerName="BEST_OF_SUPPLIERRowChangeEventHandler" msprop:Generator_RowDeletedName="BEST_OF_SUPPLIERRowDeleted" msprop:Generator_UserTableName="BEST_OF_SUPPLIER" msprop:Generator_RowChangedName="BEST_OF_SUPPLIERRowChanged" msprop:Generator_RowEvArgName="BEST_OF_SUPPLIERRowChangeEvent" msprop:Generator_RowClassName="BEST_OF_SUPPLIERRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FISTURU" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFISTURU" msprop:Generator_ColumnPropNameInRow="FISTURU" msprop:Generator_ColumnPropNameInTable="FISTURUColumn" msprop:Generator_UserColumnName="FISTURU" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="29" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FATURATARIHI" msprop:Generator_ColumnVarNameInTable="columnFATURATARIHI" msprop:Generator_ColumnPropNameInRow="FATURATARIHI" msprop:Generator_ColumnPropNameInTable="FATURATARIHIColumn" msprop:Generator_UserColumnName="FATURATARIHI" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnPropNameInTable="nameColumn" msprop:Generator_UserColumnName="name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="201" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FATURATOPLAMI" msprop:Generator_ColumnVarNameInTable="columnFATURATOPLAMI" msprop:Generator_ColumnPropNameInRow="FATURATOPLAMI" msprop:Generator_ColumnPropNameInTable="FATURATOPLAMIColumn" msprop:Generator_UserColumnName="FATURATOPLAMI" type="xs:double" minOccurs="0" />
+              <xs:element name="FATURASAY" msprop:Generator_ColumnVarNameInTable="columnFATURASAY" msprop:Generator_ColumnPropNameInRow="FATURASAY" msprop:Generator_ColumnPropNameInTable="FATURASAYColumn" msprop:Generator_UserColumnName="FATURASAY" type="xs:int" minOccurs="0" />
+              <xs:element name="invited_person" msprop:Generator_ColumnVarNameInTable="columninvited_person" msprop:Generator_ColumnPropNameInRow="invited_person" msprop:Generator_ColumnPropNameInTable="invited_personColumn" msprop:Generator_UserColumnName="invited_person" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="21" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="invited_email" msprop:Generator_ColumnVarNameInTable="columninvited_email" msprop:Generator_ColumnPropNameInRow="invited_email" msprop:Generator_ColumnPropNameInTable="invited_emailColumn" msprop:Generator_UserColumnName="invited_email" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="251" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="phone" msprop:Generator_ColumnVarNameInTable="columnphone" msprop:Generator_ColumnPropNameInRow="phone" msprop:Generator_ColumnPropNameInTable="phoneColumn" msprop:Generator_UserColumnName="phone" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="51" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TAXOFFICE" msprop:Generator_ColumnVarNameInTable="columnTAXOFFICE" msprop:Generator_ColumnPropNameInRow="TAXOFFICE" msprop:Generator_ColumnPropNameInTable="TAXOFFICEColumn" msprop:Generator_UserColumnName="TAXOFFICE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="31" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tax_id" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columntax_id" msprop:Generator_ColumnPropNameInRow="tax_id" msprop:Generator_ColumnPropNameInTable="tax_idColumn" msprop:Generator_UserColumnName="tax_id" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="16" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TCKNO" msprop:Generator_ColumnVarNameInTable="columnTCKNO" msprop:Generator_ColumnPropNameInRow="TCKNO" msprop:Generator_ColumnPropNameInTable="TCKNOColumn" msprop:Generator_UserColumnName="TCKNO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="16" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="erp_id" msprop:Generator_ColumnVarNameInTable="columnerp_id" msprop:Generator_ColumnPropNameInRow="erp_id" msprop:Generator_ColumnPropNameInTable="erp_idColumn" msprop:Generator_UserColumnName="erp_id" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="17" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BESTOFITEM" msprop:Generator_TableClassName="BESTOFITEMDataTable" msprop:Generator_TableVarName="tableBESTOFITEM" msprop:Generator_TablePropName="BESTOFITEM" msprop:Generator_RowDeletingName="BESTOFITEMRowDeleting" msprop:Generator_RowChangingName="BESTOFITEMRowChanging" msprop:Generator_RowEvHandlerName="BESTOFITEMRowChangeEventHandler" msprop:Generator_RowDeletedName="BESTOFITEMRowDeleted" msprop:Generator_UserTableName="BESTOFITEM" msprop:Generator_RowChangedName="BESTOFITEMRowChanged" msprop:Generator_RowEvArgName="BESTOFITEMRowChangeEvent" msprop:Generator_RowClassName="BESTOFITEMRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ItemRef" msprop:Generator_ColumnVarNameInTable="columnItemRef" msprop:Generator_ColumnPropNameInRow="ItemRef" msprop:Generator_ColumnPropNameInTable="ItemRefColumn" msprop:Generator_UserColumnName="ItemRef" type="xs:int" />
+              <xs:element name="product_erp_id" msprop:Generator_ColumnVarNameInTable="columnproduct_erp_id" msprop:Generator_ColumnPropNameInRow="product_erp_id" msprop:Generator_ColumnPropNameInTable="product_erp_idColumn" msprop:Generator_UserColumnName="product_erp_id" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAME" msprop:Generator_ColumnVarNameInTable="columnNAME" msprop:Generator_ColumnPropNameInRow="NAME" msprop:Generator_ColumnPropNameInTable="NAMEColumn" msprop:Generator_UserColumnName="NAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="51" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="unit" msprop:Generator_ColumnVarNameInTable="columnunit" msprop:Generator_ColumnPropNameInRow="unit" msprop:Generator_ColumnPropNameInTable="unitColumn" msprop:Generator_UserColumnName="unit" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="11" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SAY" msprop:Generator_ColumnVarNameInTable="columnSAY" msprop:Generator_ColumnPropNameInRow="SAY" msprop:Generator_ColumnPropNameInTable="SAYColumn" msprop:Generator_UserColumnName="SAY" type="xs:int" minOccurs="0" />
+              <xs:element name="TOPLAM_x0020_TUTAR" msprop:Generator_ColumnVarNameInTable="columnTOPLAM_TUTAR" msprop:Generator_ColumnPropNameInRow="TOPLAM_TUTAR" msprop:Generator_ColumnPropNameInTable="TOPLAM_TUTARColumn" msprop:Generator_UserColumnName="TOPLAM TUTAR" type="xs:double" minOccurs="0" />
+              <xs:element name="SON_x0020_IRSALIYE_x0020_TARIHI" msprop:Generator_ColumnVarNameInTable="columnSON_IRSALIYE_TARIHI" msprop:Generator_ColumnPropNameInRow="SON_IRSALIYE_TARIHI" msprop:Generator_ColumnPropNameInTable="SON_IRSALIYE_TARIHIColumn" msprop:Generator_UserColumnName="SON IRSALIYE TARIHI" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ITEMS_TO_DEMAND" msprop:Generator_TableClassName="ITEMS_TO_DEMANDDataTable" msprop:Generator_TableVarName="tableITEMS_TO_DEMAND" msprop:Generator_TablePropName="ITEMS_TO_DEMAND" msprop:Generator_RowDeletingName="ITEMS_TO_DEMANDRowDeleting" msprop:Generator_RowChangingName="ITEMS_TO_DEMANDRowChanging" msprop:Generator_RowEvHandlerName="ITEMS_TO_DEMANDRowChangeEventHandler" msprop:Generator_RowDeletedName="ITEMS_TO_DEMANDRowDeleted" msprop:Generator_UserTableName="ITEMS_TO_DEMAND" msprop:Generator_RowChangedName="ITEMS_TO_DEMANDRowChanged" msprop:Generator_RowEvArgName="ITEMS_TO_DEMANDRowChangeEvent" msprop:Generator_RowClassName="ITEMS_TO_DEMANDRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ItemRef" msprop:Generator_ColumnVarNameInTable="columnItemRef" msprop:Generator_ColumnPropNameInRow="ItemRef" msprop:Generator_ColumnPropNameInTable="ItemRefColumn" msprop:Generator_UserColumnName="ItemRef" type="xs:int" />
+              <xs:element name="product_erp_id" msprop:Generator_ColumnVarNameInTable="columnproduct_erp_id" msprop:Generator_ColumnPropNameInRow="product_erp_id" msprop:Generator_ColumnPropNameInTable="product_erp_idColumn" msprop:Generator_UserColumnName="product_erp_id" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAME" msprop:Generator_ColumnVarNameInTable="columnNAME" msprop:Generator_ColumnPropNameInRow="NAME" msprop:Generator_ColumnPropNameInTable="NAMEColumn" msprop:Generator_UserColumnName="NAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="51" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="unit" msprop:Generator_ColumnVarNameInTable="columnunit" msprop:Generator_ColumnPropNameInRow="unit" msprop:Generator_ColumnPropNameInTable="unitColumn" msprop:Generator_UserColumnName="unit" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="11" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:BESTOFITEM" />
+      <xs:field xpath="mstns:ItemRef" />
+    </xs:unique>
+    <xs:unique name="ITEMS_TO_DEMAND_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ITEMS_TO_DEMAND" />
+      <xs:field xpath="mstns:ItemRef" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
